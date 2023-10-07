@@ -1,0 +1,83 @@
+body {
+    background: black;
+    --lights: rgb(91, 235, 115);
+}
+
+@font-face {
+    font-family: neon;
+    src: url(https://dl.dropbox.com/s/df4zz9y6lmhocr9/England.otf?dl=0)
+}
+
+#neon {
+    position: relative;
+    margin: auto;
+    top: 18rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1vh;
+    line-height: 1vh;
+    text-align: center;
+    font-size: 16vh;
+    font-family: neon;
+    color: white;
+    text-shadow: 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 1vh var(--lights);
+    animation: flicker 7s infinite;
+    filter: brightness(1);
+
+    @media only screen and (max-width: 768px) {
+        font-size: 8vh;
+    }
+}
+
+@keyframes flicker {
+    9% {
+        text-shadow: 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 1vh var(--lights);
+        ;
+        filter: brightness(1)
+    }
+
+    10% {
+        text-shadow: none;
+        filter: brightness(.4);
+    }
+
+    11% {
+        text-shadow: 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 1vh var(--lights);
+        ;
+        filter: brightness(1)
+    }
+
+    12% {
+        text-shadow: none;
+        filter: brightness(.4);
+    }
+
+    13% {
+        text-shadow: 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 1vh var(--lights);
+        ;
+        filter: brightness(1)
+    }
+
+    66% {
+        text-shadow: 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 1vh var(--lights);
+        ;
+        filter: brightness(1)
+    }
+
+    67% {
+        text-shadow: none;
+        filter: brightness(.4);
+    }
+
+    75% {
+        text-shadow: none;
+        filter: brightness(.4);
+    }
+
+    76% {
+        text-shadow: 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 1vh var(--lights);
+        ;
+        filter: brightness(1)
+    }
+}

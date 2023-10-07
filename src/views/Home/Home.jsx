@@ -1,12 +1,11 @@
 import './Home.css'
+import Banner from '../../components/Banner/Banner'
 import Courses from '../../components/Modules/Modules'
 
 function Home() {
     return (
         <div className='home-container'>
-            <section className="products-section">
-                <h4>Coming soon...</h4>
-            </section>
+            <Banner />
             <Courses />
         </div>
     )
