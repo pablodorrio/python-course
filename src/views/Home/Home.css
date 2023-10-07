@@ -1,0 +1,20 @@
+.home-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #7686A6;
+    overflow-x: hidden;
+}
+
+/* Comming soon */
+h4 {
+    padding: 2rem 0 1rem 0; 
+    text-align: center;
+    color: #0B1E26;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 1.5rem;
+    font-weight: 300rem;
+    letter-spacing: 0.1rem;
+}

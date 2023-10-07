@@ -1,9 +1,12 @@
-import React from 'react'
+import './App.css'
+import NavBar from './components/NavBar/NavBar'
+import Home from './views/Home/Home'
 
 function App() {
   return (
-    <div className="App">
-      <h1>CURSO DE PYTHON</h1>
+    <div id="app">
+      <NavBar />
+      <Home />
     </div>
   )
 }
