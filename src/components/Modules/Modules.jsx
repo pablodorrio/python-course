@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Modules.css'
 
 function Modules() {
@@ -13,7 +14,7 @@ function Modules() {
                     <li>Por definir</li>
                     <li>Por definir</li>
                     </ul>
-                    <a href="#basic" className="cta">Start</a>
+                    <Link to="/" className="cta">Start</Link>
                 </div>
 
                 <div className="card">
@@ -23,7 +24,7 @@ function Modules() {
                     <li>Por definir</li>
                     <li>Por definir</li>
                     </ul>
-                    <a href="#pro" className="cta">Start</a>
+                    <Link to="/" className="cta">Start</Link>
                 </div>
 
                 <div className="card">
@@ -33,7 +34,7 @@ function Modules() {
                     <li>Por definir</li>
                     <li>Por definir</li>
                     </ul>
-                    <a href="#ultimate" className="cta">Start</a>
+                    <Link to="/" className="cta">Start</Link>
                 </div>
                 </div>
                 
