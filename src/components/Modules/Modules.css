@@ -8,6 +8,8 @@ ul {
 }
 
 .modules-container {
+  position: relative;
+  top: 26rem;
   max-width: 75rem;
   padding: 3em 1.5em;
   margin-left: auto;
@@ -42,9 +44,9 @@ ul {
   grid-template-rows: auto auto auto 1fr;
   align-items: start;
   gap: 1.25em;
-  color: #eceff1;
-  background-color: #2b2b2b;
-  border: 1px solid #eceff133;
+  color: #ededed;
+  background-color: #637AA6;
+  border: 1px solid #85A0A6;
   border-radius: 15px;
 }
 
@@ -97,8 +99,8 @@ ul {
   margin: 1em 0 0.5em 0;
   text-align: center;
   text-decoration: none;
-  color: #fff;
-  background-color: #0d0d0d;
+  color: #ededed;
+  background-color: #85A0A6;
   padding: 0.7em;
   border-radius: 10px;
   font-size: 1rem;
