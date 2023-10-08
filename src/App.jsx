@@ -1,12 +1,12 @@
 import './App.css'
 import NavBar from './components/NavBar/NavBar'
-import Home from './views/Home/Home'
+import { Outlet } from 'react-router-dom'
 
 function App() {
   return (
     <div id="app">
       <NavBar />
-      <Home />
+      <Outlet />
     </div>
   )
 }
