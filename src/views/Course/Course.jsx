@@ -4,7 +4,8 @@ import Button from '../../components/Button/Button'
 function Course() {
     return (
         <div className="course">
-             <Button />
+            <Button next={false} />
+            <Button next={true} />
         </div>
     )
 }
