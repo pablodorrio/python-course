@@ -18,11 +18,7 @@
 */
 
 .svg-wrapper {
-    position: relative;
-    top: 90%;
-
-    margin-top: 0;
-    position: relative;
+    margin-top: 2rem;
     width: 150px;
     height: 40px;
     display: inline-block;
@@ -33,12 +29,10 @@
 
 .right {
     float: right;
-    margin-right: 4rem;
 }
 
 .left {
     float: left;
-    margin-left: 4rem;
 }
 
 /*

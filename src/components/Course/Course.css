@@ -1,0 +1,13 @@
+.course {
+    position: absolute;
+    top: 9rem;
+    left: 10%;
+    width: 80%;
+    height: 80vh;
+    background-color: #85A0A6;
+    border-radius: 10px;
+    overflow-y: auto;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    padding-inline: 5rem;
+}
