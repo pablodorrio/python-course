@@ -1,0 +1,16 @@
+.code-display-title {
+    height: 2rem;
+    background-color: #3a404d;
+    border-radius: 0.5rem 0.5rem 0 0;
+    /* font-size: 1.5rem; */
+}
+
+.code-display-title p {
+    margin-left: 1rem;
+    padding: 0.4rem;
+    color: #fff;
+}
+
+.code-display {
+    border-radius: 0 0 0.5rem 0.5rem;
+}
