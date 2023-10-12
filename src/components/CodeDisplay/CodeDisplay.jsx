@@ -35,7 +35,7 @@ const Component = () => {
     return (
         <div>
             <div className='code-display-title'>
-                <p>Example code</p>
+                <p id='code-p'>Example code</p>
                 <ion-icon name="clipboard-outline"></ion-icon>
             </div>
             <SyntaxHighlighter className="code-display" language="python" style={atomOneDark}>
