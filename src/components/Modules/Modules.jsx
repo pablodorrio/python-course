@@ -37,7 +37,7 @@ function Modules() {
                             <li>Por definir</li>
                             <li>Por definir</li>
                         </ul>
-                        <Link to="/module3/lesson1" className="cta" onClick={e => setModule(1)}>{module === 3 ? 'Continue' : 'Start'}</Link>
+                        <Link to="/module3/lesson1" className="cta" onClick={e => setModule(3)}>{module === 3 ? 'Continue' : 'Start'}</Link>
                     </div>
                 </div>
 
