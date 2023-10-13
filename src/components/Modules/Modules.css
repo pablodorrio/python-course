@@ -9,12 +9,16 @@ ul {
 
 .modules-container {
   position: relative;
-  top: 26rem;
+  top: 34rem;
   max-width: 75rem;
   padding: 3em 1.5em;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+
+.continue-hidden {
+  top: 27rem;
 }
 
 .modules-container-heading {

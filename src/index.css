@@ -14,3 +14,7 @@ body {
   min-height: 100vh;
   background-color: #7686A6;
 }
+
+.d-none {
+  display: none;
+}

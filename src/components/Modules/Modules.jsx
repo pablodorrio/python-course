@@ -6,7 +6,7 @@ function Modules() {
     const [module, setModule] = useLocalStorage('module', 0);
 
     return (
-        <div className="modules-container">
+        <div className={`modules-container ${module === 0 ? 'continue-hidden' : ''}`}>
             <h1 className="modules-container-heading">Módulos</h1>
             <div className="cards">
                 <div className="cards-inner">
