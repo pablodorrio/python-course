@@ -3,7 +3,7 @@ import './Modules.css'
 import { useLocalStorage } from '../../useLocalStorage'
 
 function Modules() {
-    const [module, setModule] = useLocalStorage('module', 0);
+    const [module] = useLocalStorage('module', 0);
 
     return (
         <div className={`modules-container ${module === 0 ? 'continue-hidden' : ''}`}>
@@ -17,7 +17,7 @@ function Modules() {
                             <li>Por definir</li>
                             <li>Por definir</li>
                         </ul>
-                        <Link to="/module1/lesson1" className="cta" onClick={e => setModule(1)}>{module === 1 ? 'Continue' : 'Start'}</Link>
+                        <Link to="/module1/lesson1" className="cta">{module === 1 ? 'Continue' : 'Start'}</Link>
                     </div>
 
                     <div className="card">
@@ -27,7 +27,7 @@ function Modules() {
                             <li>Por definir</li>
                             <li>Por definir</li>
                         </ul>
-                        <Link to="/module2/lesson1" className="cta" onClick={e => setModule(2)}>{module === 2 ? 'Continue' : 'Start'}</Link>
+                        <Link to="/module2/lesson1" className="cta">{module === 2 ? 'Continue' : 'Start'}</Link>
                     </div>
 
                     <div className="card">
@@ -37,7 +37,7 @@ function Modules() {
                             <li>Por definir</li>
                             <li>Por definir</li>
                         </ul>
-                        <Link to="/module3/lesson1" className="cta" onClick={e => setModule(3)}>{module === 3 ? 'Continue' : 'Start'}</Link>
+                        <Link to="/module3/lesson1" className="cta">{module === 3 ? 'Continue' : 'Start'}</Link>
                     </div>
                 </div>
 
