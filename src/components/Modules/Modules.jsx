@@ -14,7 +14,7 @@ function Modules() {
                     <li>Por definir</li>
                     <li>Por definir</li>
                     </ul>
-                    <Link to="/" className="cta">Start</Link>
+                    <Link to="/module1/lesson1" className="cta">Start</Link>
                 </div>
 
                 <div className="card">
@@ -24,7 +24,7 @@ function Modules() {
                     <li>Por definir</li>
                     <li>Por definir</li>
                     </ul>
-                    <Link to="/" className="cta">Start</Link>
+                    <Link to="/module2/lesson1" className="cta">Start</Link>
                 </div>
 
                 <div className="card">
@@ -34,7 +34,7 @@ function Modules() {
                     <li>Por definir</li>
                     <li>Por definir</li>
                     </ul>
-                    <Link to="/" className="cta">Start</Link>
+                    <Link to="/module3/lesson1" className="cta">Start</Link>
                 </div>
                 </div>
                 
