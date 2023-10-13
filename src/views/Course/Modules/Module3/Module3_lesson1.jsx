@@ -10,12 +10,14 @@ function Module3_lesson1() {
     const nextPath = path.pathname.replace('lesson1', 'lesson2');
 
     const [module, setModule] = useLocalStorage('module', 0);
-    const [lesson, setLesson] = useLocalStorage('lesson', 'Lesson');
+    const [lesson, setLesson] = useLocalStorage('lesson', 1);
+    const [lessonTitle, setLessonTitle] = useLocalStorage('title', 'Lesson');
     const [lessonPath, setLessonPath] = useLocalStorage('path', '/');
 
     useEffect(() => {
         setModule(1);
-        setLesson('Lesson 1');
+        setLesson(1);
+        setLessonTitle('Lesson 1');
         setLessonPath(path);
     }, []);
 
@@ -25,7 +27,7 @@ function Module3_lesson1() {
     
     return (
         <div className='course' overflow=''>
-            <h1>{`${lesson}`}</h1>
+            <h1>{`${lessonTitle}`}</h1>
 
             <h2>1.1 Esto es el ejemplo</h2>
 
