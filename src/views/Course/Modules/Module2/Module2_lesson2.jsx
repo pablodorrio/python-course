@@ -10,8 +10,8 @@ function Module2_lesson2() {
     const prevPath = path.pathname.replace('lesson2', 'lesson1');
 
     const [lesson, setLesson] = useLocalStorage('lesson', 1);
-    const [lessonTitle, setLessonTitle] = useLocalStorage('title', 'Lesson');
-    const [lessonPath, setLessonPath] = useLocalStorage('path', '/');
+    const [lessonTitle, setLessonTitle] = useLocalStorage('lessonTitle', 'Lesson');
+    const [lessonPath, setLessonPath] = useLocalStorage('lessonPath', '/');
 
     useEffect(() => {
         setLesson(2);
