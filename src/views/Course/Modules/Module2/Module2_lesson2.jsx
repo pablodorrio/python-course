@@ -8,6 +8,7 @@ import { useLocalStorage } from '../../../../useLocalStorage';
 function Module2_lesson2() {
     const path = useLocation();
     const prevPath = path.pathname.replace('lesson2', 'lesson1');
+    const nextPath = path.pathname.replace('lesson2', 'end');
 
     const [lesson, setLesson] = useLocalStorage('lesson', 1);
     const [lessonTitle, setLessonTitle] = useLocalStorage('lessonTitle', 'Lesson');
@@ -28,7 +29,7 @@ function Module2_lesson2() {
             <CodeDisplay />
 
             <Button next={false} path={prevPath} />
-            <Button next={true} />
+            <Button next={true} path={nextPath} />
         </div>
     );
 }
