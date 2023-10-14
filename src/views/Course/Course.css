@@ -13,22 +13,23 @@
 }
 
 .course h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 600;
     color: #fff;
     margin-bottom: 2rem;
 }
 
 .course h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
     color: #fff;
     margin-bottom: 1rem;
 }
 
 .course p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 400;
+    line-height: 2.5rem;
     color: #000;
-    margin: 2rem 0;
+    margin: 2.5rem 0;
 }
