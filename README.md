@@ -1,8 +1,8 @@
-# React + Vite
+# Curso de Python
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es el readme de el curso básico de python de UvigoMotorsport.
 
-Currently, two official plugins are available:
+Pulsa en este [enlace](https://agilemethodologies.net/) para acceder al curso.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Disclaimer
+Este curso permanecerá un tiempo en mantenimiento y se le irán incorporando mejoras y nuevo contenido.
