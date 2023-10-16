@@ -4,6 +4,12 @@ import App from './App.jsx'
 import Home from './views/Home/Home/Home'
 import Module1_lesson1 from './views/Course/Modules/Module1/Module1_lesson1.jsx'
 import Module1_lesson2 from './views/Course/Modules/Module1/Module1_lesson2.jsx'
+import Module1_lesson3 from './views/Course/Modules/Module1/Module1_lesson3.jsx'
+import Module1_lesson4 from './views/Course/Modules/Module1/Module1_lesson4.jsx'
+import Module1_lesson5 from './views/Course/Modules/Module1/Module1_lesson5.jsx'
+import Module1_lesson6 from './views/Course/Modules/Module1/Module1_lesson6.jsx'
+import Module1_lesson7 from './views/Course/Modules/Module1/Module1_lesson7.jsx'
+import Module1_lesson8 from './views/Course/Modules/Module1/Module1_lesson8.jsx'
 import Module1_end from './views/Course/Modules/Module1/Module1_end.jsx'
 import Module2_lesson1 from './views/Course/Modules/Module2/Module2_lesson1.jsx'
 import Module2_lesson2 from './views/Course/Modules/Module2/Module2_lesson2.jsx'
@@ -24,6 +30,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
           <Route path='/module1/lesson1' element={<Module1_lesson1 />} />
           <Route path='/module1/lesson2' element={<Module1_lesson2 />} />
+          <Route path='/module1/lesson3' element={<Module1_lesson3 />} />
+          <Route path='/module1/lesson4' element={<Module1_lesson4 />} />
+          <Route path='/module1/lesson5' element={<Module1_lesson5 />} />
+          <Route path='/module1/lesson6' element={<Module1_lesson6 />} />
+          <Route path='/module1/lesson7' element={<Module1_lesson7 />} />
+          <Route path='/module1/lesson8' element={<Module1_lesson8 />} />
           <Route path='/module1/end' element={<Module1_end />} />
 
           <Route path='/module2/lesson1' element={<Module2_lesson1 />} />

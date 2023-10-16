@@ -14,30 +14,32 @@ function Modules() {
                         <h3 className="card-heading">Basic</h3>
                         <h2 className="card-price">Python Basics</h2>
                         <ul role="list" className="card-bullets flow">
-                            <li>Por definir</li>
-                            <li>Por definir</li>
+                            <li>Variables y tipos de datos</li>
+                            <li>Operadores</li>
+                            <li>Condicionales</li>
+                            <li>Bucles</li>
+                            <li>Funciones</li>
+                            <li>Clases y objetos</li>
                         </ul>
                         <Link to="/module1/lesson1" className="cta">{module === 1 ? 'Continue' : 'Start'}</Link>
                     </div>
 
                     <div className="card">
                         <h3 className="card-heading">Intermediate</h3>
-                        <h2 className="card-price">Advanced Python</h2>
+                        <h2 className="card-price">Python Intermediate</h2>
                         <ul role="list" className="card-bullets flow">
-                            <li>Por definir</li>
-                            <li>Por definir</li>
+                            <li>Próximamente...</li>
                         </ul>
-                        <Link to="/module2/lesson1" className="cta">{module === 2 ? 'Continue' : 'Start'}</Link>
+                        <Link /* to="/module2/lesson1" */ className="cta">{module === 2 ? 'Continue' : 'Próximamente'}</Link>
                     </div>
 
                     <div className="card">
                         <h3 className="card-heading">Advanced</h3>
                         <h2 className="card-price">Computational Mathematics with Python</h2>
                         <ul role="list" className="card-bullets flow">
-                            <li>Por definir</li>
-                            <li>Por definir</li>
+                            <li>Próximamente...</li>
                         </ul>
-                        <Link to="/module3/lesson1" className="cta">{module === 3 ? 'Continue' : 'Start'}</Link>
+                        <Link /* to="/module3/lesson1" */ className="cta">{module === 3 ? 'Continue' : 'Próximamente'}</Link>
                     </div>
                 </div>
 

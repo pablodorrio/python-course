@@ -20,7 +20,7 @@ function Module1_lesson1() {
         setModule(1);
         setModuleTitle('Python Basics');
         setLesson(1);
-        setLessonTitle('Lesson 1');
+        setLessonTitle('Introducción a Python');
         setLessonPath(path);
     }, []);
 
@@ -28,9 +28,13 @@ function Module1_lesson1() {
         <div className='course' overflow=''>
             <h1>{`${lessonTitle}`}</h1>
 
-            <h2>1.1 Esto es el ejemplo</h2>
+            <p>Python es un lenguaje de programación de alto nivel que prioriza la claridad y legibilidad de su código.
+                Es interpretado y dinámico (aunque también es posible añadir verificacadores estáticas de código).
+                Además, es un lenguaje multiparadigma, que combina aspectos de la programación orientada a objetos, la programación imperativa y, en cierta medida, la programación funcional.</p>
 
-            <CodeDisplay />
+            <h2>Usos</h2>
+
+            <p>Por último, Python es un lenguaje multipropósito, es decir puedes usarlo en una gran variedad de campos como la programación web, IA, ciencia de datos, hacking...</p>
 
             <Button next={false} />
             <Button next={true} path={nextPath} />
