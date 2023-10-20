@@ -65,9 +65,18 @@ function Module2_lesson1() {
             <p>El bloque finally se ejecuta independientemente de si se lanzó una excepción o no.</p>
             <CodeDisplay codeString={codeString2} />
 
-            <h2>Lanzamiento de Excepciones</h2>
+            {/* <h2>Lanzamiento de Excepciones</h2>
             <p>Se puede lanzar una excepción con la palabra clave <b>raise</b> para posteriormente sea capturada.</p>
-            <CodeDisplay codeString={codeString3} />
+            <CodeDisplay codeString={codeString3} /> */}
+
+            <div className='exercise'>
+                <h2>Ejercicio: lanzamiento de excepciones</h2>
+                <p>
+                    Crea una función <b>validar_edad</b> a la cuál se le pase como argumento la edad y en caso 
+                    de que sea menor de 0 lance una excepción con el mensaje {'"La edad no puede ser negativa"'}.
+                    Posteriormente llama a la función con un valor negativo y captura la excepción.
+                </p>
+            </div>
 
             <Button next={false} />
             <Button next={true} path={nextPath} />

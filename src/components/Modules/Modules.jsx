@@ -28,18 +28,27 @@ function Modules() {
                         <h3 className="card-heading">Intermediate</h3>
                         <h2 className="card-price">Python Intermediate</h2>
                         <ul role="list" className="card-bullets flow">
-                            <li>Próximamente...</li>
+                            <li>Excepciones</li>
+                            <li>Métodos estáticos y especiales</li>
+                            <li>Polimorfismo</li>
+                            <li>Bucles avanzados</li>
+                            <li>Módulos y pip</li>
+                            <li>Mantenibilidad del código</li>
                         </ul>
-                        <Link /* to="/module2/lesson1" */ className="cta">{module === 2 ? 'Continue' : 'Próximamente'}</Link>
+                        <Link to="/module2/lesson1" className="cta">{module === 2 ? 'Continue' : 'Start'}</Link>
                     </div>
 
                     <div className="card">
-                        <h3 className="card-heading">Advanced</h3>
+                        <h3 className="card-heading">Basic</h3>
                         <h2 className="card-price">Computational Mathematics with Python</h2>
                         <ul role="list" className="card-bullets flow">
-                            <li>Próximamente...</li>
+                            <li>Archivos</li>
+                            <li>Slicing de listas</li>
+                            <li>Numpy</li>
+                            <li>Matplotlib</li>
+                            <li>SciPy</li>
                         </ul>
-                        <Link /* to="/module3/lesson1" */ className="cta">{module === 3 ? 'Continue' : 'Próximamente'}</Link>
+                        <Link to="/module3/lesson1" className="cta">{module === 3 ? 'Continue' : 'Start'}</Link>
                     </div>
                 </div>
 

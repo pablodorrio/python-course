@@ -13,7 +13,7 @@ function NavBar() {
     return (
         <header className="NavBar">
             <Link to='/' className="logo-link">
-                <img className='logo' src="/black-python.svg" alt="logo" />
+                <img className='logo' src="/public/black-python.svg" alt="logo" />
             </Link>
             <nav className={`nav-links ${showMenu ? 'show' : ''}`}>
                 <ul>
