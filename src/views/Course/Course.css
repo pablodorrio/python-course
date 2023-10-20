@@ -10,6 +10,20 @@
     padding-top: 4rem;
     padding-bottom: 2rem;
     padding-inline: 5rem;
+
+    @media screen and (max-width: 768px) {
+        top: 8rem;
+        left: 5%;
+        width: 90%;
+        height: 90vh;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-inline: 3rem;
+    }
+
+    @media screen and (max-width: 480px) {
+        padding-inline: 1rem;
+    }
 }
 
 .course h1 {
@@ -17,6 +31,10 @@
     font-weight: 600;
     color: #fff;
     margin-bottom: 2rem;
+
+    @media screen and (max-width: 768px) {
+        font-size: 2rem;        
+    }
 }
 
 .course h2 {
@@ -25,6 +43,10 @@
     color: #fff;
     margin-top: 1rem;
     margin-bottom: 1rem;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1.5rem;        
+    }
 }
 
 .course h3 {
@@ -33,6 +55,10 @@
     color: #fff;
     margin-top: 1rem;
     margin-bottom: 1rem;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1.2rem;        
+    }
 }
 
 .course p {
@@ -41,6 +67,10 @@
     line-height: 2.5rem;
     color: #000;
     margin: 2.5rem 0;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1.2rem;
+    }
 }
 
 .course li {
@@ -49,6 +79,10 @@
     font-weight: 400;
     color: #000;
     margin: 0 2rem;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1.2rem;        
+    }
 }
 
 .course .num li {
@@ -57,12 +91,20 @@
     font-weight: 400;
     color: #000;
     margin: 0 2rem;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1.2rem;        
+    }
 }
 
 .course b {
     font-size: 1.5rem;
     font-weight: 600;
     color: #000;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1.2rem;        
+    }
 }
 
 .course a {
@@ -70,6 +112,10 @@
     font-weight: 400;
     color: #fff;
     text-decoration: none;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1.2rem;        
+    }
 }
 
 .course table {
@@ -84,6 +130,10 @@
     color: #000;
     padding: 1rem;
     border: 1px solid #000;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1.2rem;        
+    }
 }
 
 .course table td {
@@ -92,6 +142,10 @@
     color: #000;
     padding: 1rem;
     border: 1px solid #000;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1.2rem;        
+    }
 }
 
 .exercise {
