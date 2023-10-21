@@ -63,7 +63,7 @@ function Module3_lesson6() {
                 Teneis que entregar el código de los ejercicios finales  de los módulos 2 y 3 en dos carpetas comprimidas <b>.zip </b> 
                 con la siguiente nomenclatura: <b>apellidos_nombre_ejercicio_final_2.zip</b> y <b>apellidos_nombre_ejercicio_final_3.zip</b>.
             </p>
-            <p>Posteriormente teneis que entregarlo al correo <b>pablo.dorrio.vazquez@uvigomotorsoport.com</b> </p>
+            <p>Posteriormente teneis que entregarlo antes del domingo a las 23:59h al correo <b>pablo.dorrio.vazquez@uvigomotorsoport.com</b> </p>
 
             <Button next={false} path={prevPath} />
             <Button next={true} path={nextPath} />
