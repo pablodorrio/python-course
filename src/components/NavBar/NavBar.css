@@ -86,9 +86,8 @@
     transition: .3s;
 }
 
-.NavLink:hover,
-.NavLink.active {
-    color: #ededed;
+.NavLink:hover {
+    color: #000;
 }
 
 .burguer {
