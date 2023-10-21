@@ -28,8 +28,8 @@ function Module2_lesson6() {
             num2 (int): Segundo número a sumar.
 
         Returns:
-        """
             int: Resultado de la suma.
+        """
         return num1 + num2
     `;
 
