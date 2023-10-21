@@ -18,10 +18,10 @@ function NavBar() {
             <nav className={`nav-links ${showMenu ? 'show' : ''}`}>
                 <ul>
                     <li>
-                        <NavLink exact to='/' activeClassName='active' className='NavLink' onClick={() => {if (showMenu) handleClick()}}>Home</NavLink>
+                        <NavLink exact='true' to='/' activeClassName='active' className='NavLink' onClick={() => { if (showMenu) handleClick() }}>Home</NavLink>
                     </li>
                     <li>
-                        <NavLink exact to='https://github.com/pablodorrio/python-course' target='_blank' activeClassName='active' className='NavLink' onClick={() => {if (showMenu) handleClick()}}>Repository</NavLink>
+                        <NavLink exact='true' to='https://github.com/pablodorrio/python-course' target='_blank' activeClassName='active' className='NavLink' onClick={() => { if (showMenu) handleClick() }}>Repository</NavLink>
                     </li>
                 </ul>
             </nav>
