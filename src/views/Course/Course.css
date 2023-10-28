@@ -1,13 +1,9 @@
-body {
-    overflow-y: hidden;
-}
-
 .course {
-    position: absolute;
+    position: fixed;
     top: 9rem;
     left: 10%;
     width: 80%;
-    height: 82vh;
+    height: 80vh;
     background-color: #85A0A6;
     border-radius: 10px;
     overflow-y: auto;
@@ -19,7 +15,7 @@ body {
         top: 8rem;
         left: 5%;
         width: 90%;
-        height: 85vh;
+        height: 83vh;
         padding-top: 2rem;
         padding-bottom: 2rem;
         padding-inline: 3rem;
