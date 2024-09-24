@@ -25,7 +25,6 @@ function Continue() {
             totalChapters = 0;
     }
 
-    // Calcular el porcentaje de progreso
     const progressPercentage = totalChapters > 0 ? (lesson / totalChapters) * 100 : 0;
 
     return (
@@ -34,7 +33,6 @@ function Continue() {
                 <div className='continue-course-preview'>
                     <h6>Módulo</h6>
                     <h2>{moduleTitle}</h2>
-                    {/* <Link to={lessonPath}>View all chapters<i className='fas fa-chevron-right'></i></Link> */}
                 </div>
                 <div className='continue-course-info'>
                     <div className='progress-container'>
